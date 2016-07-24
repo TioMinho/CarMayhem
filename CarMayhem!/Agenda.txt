@@ -1,0 +1,71 @@
+*********************************************************************************************
+*********************************************************************************************
+*********************							*********************
+*********************		ANOTAÇÕES/MEMORANDO/AGENDA		*********************
+*********************							*********************	
+*********************							*********************
+*********************************************************************************************
+*********************************************************************************************
+
+30/10/2014
+__________________________________ DONE_____________________________
+*Classe Menus 
+	**Eu tava fazendo a comparações de posição e tamanho de caractere
+	  pra colocar o texto no menu seletor de personagem
+	  ________________________________________________________
+
+
+31/10/2014
+_________________________________  DONE _____________________________
+*Classe CAR
+	****************IMPORTANTE*******************
+	Criar um método setTexture, que vai ter como parametros um std::string.
+	Baseado na escolha do menu de seleção de personagens, a textura será inserida
+	numa string e armazenada para ser usada no construtor padrão do personagem
+	(!!!!!!!QUE SÓ DEVERAR SER EXECUTADO UMA VEZ NO GAME LOOP, DE PREFERENCIA NO PROPRIO
+	 IF(teste.isMenuOpen)!!!!!!!!!!)
+
+	Os Sprites, POREM, já devem estar posicionados no ponto inicial da pista.
+	  _________________________________________________________
+
+
+01/11/2014
+__________________________________DONE________________________________
+*Pista de Colisão
+*Movimento 360º
+*Implementar Aceleração
+*Ajustes nos Menus Principal e Seleção de Personagens (Inseridos os menus em um while loop)
+*Aumento de mais 2 sprites no spritesheet do carro para aumentar a angulação do carro
+*Criado método de checar colisão na classe "Mapas"
+*Criado o método de checar colisão com o mapa na classe "Carro"
+*Criado o método de colidir, caso o método checar colisão tenha como parametro um bool "TRUE"
+	______________________________________________________________
+
+___________________________________DONE_______________________________
+*Ajuste gráfico nos 4 spritesframes adicionados ao spritesheet do carro ***************************DONE
+*Ajuste no método de "setTextureRect()" para que o bounding box do carro seja o mais fiel possivel à sua textura****************DONE
+*Verificar quais variáveis de velocidade são adequadas pra que o movimento seja mais "liso"*******************DONE
+*Fazer split-screen para que jogue com 2 players**********************DONE
+*Ajustar o background do mapa principal*****************************************DONE
+*Fazer o almoço de Emanuel************** QUE ELE MORRA DE FOME
+*Inserir no construtor as variáveis de velocidadeMáxima e aceleração******************DONE
+	_______________________________________________________________
+
+
+_________________________________DONE________________________________
+* VERIFICAR SE É POSSÍVEL SEPARAR OS FRAMES EM DIFERENTES ARQUIVOS E CHAMÁ-LOS COM O "sprite.setTexture(sf::Texture)" 
+* CRIAR FUNÇÃO DE EXECUÇÃO DE MÚSICA ALEATÓRIA DE ACORDO COM O REPERTÓRIO DE DETERMINADO PERSONAGEM ************************ DONE
+* TERMINAR DE DELIMITAR OS VIEWS PARA O SEGUNDO PLAYER *******************DONE
+* CRIAR E POSICIONAR A LINHA DE CHEGADA E CRIAR AS FUNÇÔES PARA ARMAZENAR VALORES DE MAPS E TERMINAR O JOGO QUANDO ELES FOREM
+  IGUAIS AO VALOR MÁXIMO *************************DONE
+* CRIAR METODO QUE RETORNE O VALOR DA FRENTE DO CARRO PARA FAZER METODO ATIRAR
+* CRIAR METODO ATIRAR
+ALGUEM ME SALVA PLSSSSSSSSSSSSSSSSSSSSSS
+* CRIAR OUTRO MENU SELETOR PARA O PLAYER TWO **********************DONE
+	_________________________________________________________________
+
+	_________________________________DONE________________________________
+* POSICIONAR GUI PARA CADA PLAYER
+* TERMINAR METODO "explodir()" DA CLASSE CAR
+* TERMINAR MÉTODO QUE ANUNCIAR O VENCEDOR
+	_________________________________________________________________
